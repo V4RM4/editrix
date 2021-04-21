@@ -28,7 +28,7 @@ into a ruby hash, like this.
  "BHT"=>{"BHT01"=>"0022", "BHT02"=>"11", "BHT03"=>"TRANSA", "BHT04"=>"20210315", "BHT05"=>"07342355"}, "2000A.HL"=>{"HL01"=>"1", "HL02"=>"", "HL03"=>"20", "HL04"=>"1"}, 
  "2000A.NM1"=>{"NM101"=>"PR", "NM102"=>"2", "NM103"=>"CMS", "NM104"=>"", "NM105"=>"", "NM106"=>"", "NM107"=>"", "NM108"=>"PI", "NM109"=>"CMS"}, "2000B.HL"=>{"HL01"=>"2", "HL02"=>"1", "HL03"=>"21", "HL04"=>"1"}} #....
 ```
-Use json libraries (require 'json') to make the hash look like this, if needed.
+or write to files as json, like below, if needed.
 ```json
 {
   "ISA": {
@@ -183,7 +183,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/editrix. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/editrix/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/V4RM4/editrix. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/editrix/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
