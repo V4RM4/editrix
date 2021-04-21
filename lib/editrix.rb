@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative "editrix/version"
 require 'json'
 
@@ -12,8 +10,8 @@ module Editrix
     end
 
     def parse
-      array_271 = @raw_271.split("~")    # Traversal array for split 271 segments
-      @hash_271 = {}                     # Final hash for the entire decoded 271
+      array_271 = @raw_271.split("~")   # Traversal array for split 271 segments
+      @hash_271 = {}                    # Final hash for the entire decoded 271
       l_count = 0                       # Loop Segment counter
       dtp_count = 0                     # DTP segment counter
       ref_count = 0                     # REF segment counter
