@@ -164,7 +164,7 @@ Or install it yourself as:
 
 ## Usage
 ```ruby
-edi_variable = "--270 edi here--"
+edi_variable = "--271 edi here--"
 parser = Editrix::Parser.new(edi_variable) 
 parser.parse              # method that parses the raw 271 edi
 puts parser.result        # prints parsed 271 edi in ruby hash
