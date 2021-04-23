@@ -134,7 +134,7 @@ module Editrix
           (1..segment_values.length-1).each do |i|
             nm1["NM1%02d" % i] = segment_values[i]
           end
-          loop_num == 2100
+          loop_num = 2100
           if ls_flag == true
             @hash_271["#{loop_num.to_s+loop_alpha}.#{loop_secondary_count}.2120C#{l_count}.NM1"] = nm1
           else
